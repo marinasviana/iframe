@@ -16,6 +16,7 @@ Quando("ele clicar em um botão multiplas guias") do
     @nova_janela.multiplas_guias.click
 end
 
+
   
 Então("ele deve poder manipular os elemento dessa nova guia") do
     @nova_janela.mudar_foco_para_nova_guia
@@ -27,5 +28,6 @@ end
   
 Então("ele deve poder manipular os elemento dessas novas guias") do
     @nova_janela.mudar_foco_para_nova_guia_multiplas
-    sleep 2
 end
+
+
